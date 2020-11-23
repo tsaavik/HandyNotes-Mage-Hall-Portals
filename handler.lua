@@ -34,7 +34,7 @@ disabled_entrance_texture.b = 0
 local get_point_info = function(point)
     if point then
         local texture
-        if IsQuestFlaggedCompleted(point.quest) then
+        if C_QuestLog.IsQuestFlaggedCompleted(point.quest) then
             texture = point.entrance and enabled_entrance_texture or enabled_texture
         else
             texture = point.entrance and disabled_entrance_texture or disabled_texture
@@ -50,7 +50,7 @@ end
 local function handle_tooltip(tooltip, point)
     if point then
         tooltip:AddLine(point.label)
-        if IsQuestFlaggedCompleted(point.quest) then
+        if C_QuestLog.IsQuestFlaggedCompleted(point.quest) then
             tooltip:AddLine(ACTIVE_PETS, 0, 1, 0) -- Active
         else
             tooltip:AddLine(FACTION_INACTIVE, 1, 0, 0) -- Inactive
