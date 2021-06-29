@@ -1,6 +1,6 @@
 ## Last updated @file-date-iso@
-## Interface: 90005
-## Version: 1.6
+## Interface: 90100
+## Version: 1.7
 ## Title: HandyNotes_LegionMagePortals
 ## Notes: Shows Teleportation Nexus Portals
 ## Author: Tsaavik Gnoballs @Greymane (based on work by Kemayo)
