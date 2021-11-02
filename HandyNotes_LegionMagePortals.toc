@@ -1,5 +1,5 @@
 ## Last updated @file-date-iso@
-## Interface: 90100
+## Interface: 90105
 ## Version: 1.7
 ## Title: HandyNotes_LegionMagePortals
 ## Notes: Shows Teleportation Nexus Portals
