@@ -1,6 +1,6 @@
 ## Last updated @file-date-iso@
-## Interface: 100107
-## Version: 2.5
+## Interface: 100200
+## Version: 2.6
 ## Title: HandyNotes_LegionMagePortals
 ## Notes: Shows Teleportation Nexus Portals
 ## Author: Tsaavik Gnoballs @Greymane (based on work by Kemayo)
