@@ -2,7 +2,6 @@ WoW Plugin - Plugin for the "HandyNotes" addon to show portal locations for the 
 
 
 
-
 # curse auto-build
 git commit -a || echo "did you forget to bump TOC?"
 git tag |tail -1 #to see last tags
