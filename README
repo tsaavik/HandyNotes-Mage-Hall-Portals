@@ -8,3 +8,7 @@ git tag |tail -1 #to see last tags
 git tag -a v3.0 -m "Release 3.0"
 git push --follow-tags
 #git push && git push origin tag $(git tag |tail -1)
+
+if curseforge build is broken you can upload manually
+cd ..
+zip HandyNotes_LegionMagePortals.zip HandyNotes_LegionMagePortals/* -x HandyNotes_LegionMagePortals/backups/ '*.git*'

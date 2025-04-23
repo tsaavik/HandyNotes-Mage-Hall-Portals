@@ -1,5 +1,5 @@
 ## Last updated @file-date-iso@
-## Interface: 110100
+## Interface: 110105
 ## Version: @project-revision@
 ## Title: HandyNotes_LegionMagePortals
 ## Notes: Shows Teleportation Nexus Portals
@@ -13,6 +13,7 @@
 ## X-Curse-Project-Name: HandyNotes_LegionMagePortals
 ## X-Curse-Project-ID: HandyNotes_LegionMagePortals
 ## X-Curse-Repository-ID: wow/HandyNotes_LegionMagePortals/mainline
+## X-Curse-Project-ID: 102475
 
 handler.lua
 config.lua
