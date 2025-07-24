@@ -5,6 +5,7 @@ ns.defaults = {
         icon_scale = 1.5,
         icon_alpha = 1.0,
         entrances = true,
+        debug = false,
     },
 }
 
@@ -41,7 +42,25 @@ ns.options = {
                     min = 0, max = 1, step = 0.01,
                     order = 30,
                 },
+                reset_icons = {
+                    type = "execute",
+                    name = "Reset to Defaults",
+                    desc = "Reset icon scale and alpha to default values",
+                    func = function()
+                        ns.db.icon_scale = ns.defaults.profile.icon_scale
+                        ns.db.icon_alpha = ns.defaults.profile.icon_alpha
+                        ns.HL:SendMessage("HandyNotes_NotifyUpdate", myname:gsub("HandyNotes_", ""))
+                        print("[LegionMagePortals] Icon settings reset to defaults")
+                    end,
+                    order = 35,
+                },
             },
+        },
+        debug = {
+            type = "toggle",
+            name = "Debug Mode",
+            desc = "Enable debug output to chat",
+            order = 40,
         },
     },
 }
