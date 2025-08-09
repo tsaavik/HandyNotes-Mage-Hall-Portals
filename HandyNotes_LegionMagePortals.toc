@@ -2,7 +2,7 @@
 ## Title: HandyNotes: Legion Mage Portals
 ## Notes: Shows Teleportation Nexus Portal locations on your map (Legion expansion)
 ## Author: Tsaavik (Updated for current WoW)
-## Version: 4.2
+## Version: 4.2a
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_LegionMagePortalsDB
 ## RequiredDeps: HandyNotes
