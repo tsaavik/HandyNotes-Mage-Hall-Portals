@@ -1,4 +1,4 @@
-## Interface: 110107
+## Interface: 110200
 ## Title: HandyNotes: Legion Mage Portals
 ## Notes: Shows Teleportation Nexus Portal locations on your map (Legion expansion)
 ## Author: Tsaavik (Updated for current WoW)
@@ -11,7 +11,8 @@
 ## X-Curse-Project-ID: 102475
 ## X-WoWI-ID: 23581
 ## X-License: All Rights Reserved
-## IconTexture: Interface\Icons\Achievement_Zone_Dalaran
+## IconAtlas: poi-town
+## AddonCompartmentFunc: HandyNotes_LegionMagePortals_OnAddonCompartmentClick
 
 handler.lua
 config.lua
