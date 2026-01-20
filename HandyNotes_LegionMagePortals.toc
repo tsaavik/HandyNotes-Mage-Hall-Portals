@@ -1,4 +1,4 @@
-## Interface: 110207
+## Interface: 120000
 ## Title: HandyNotes: Legion Mage Portals
 ## Notes: Shows Teleportation Nexus Portal locations on your map (Legion expansion)
 ## Author: Tsaavik (Updated for current WoW)
